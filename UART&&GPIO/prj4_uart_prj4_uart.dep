@@ -1,0 +1,16 @@
+Dependencies for Project 'prj4_uart', Target 'prj4_uart': (DO NOT MODIFY !)
+F (.\main.c)(0x5CEFED90)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (tm4c123gh6pm.h)(0x5C98FE26)
+I (PLL.h)(0x5C98FE1E)
+I (UART.h)(0x5CEFEBB5)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
+F (.\PLL.c)(0x5C98FE1E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (tm4c123gh6pm.h)(0x5C98FE26)
+I (PLL.h)(0x5C98FE1E)
+F (.\UART.c)(0x5CEFEB2E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (tm4c123gh6pm.h)(0x5C98FE26)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C827C4)
+F (.\startup_TM4C123.s)(0x5C98FE1E)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\PLL.h)(0x5C98FE1E)()
+F (.\tm4c123gh6pm.h)(0x5C98FE26)()
+F (.\UART.h)(0x5CEFEBB5)()
